@@ -11,4 +11,4 @@ Make sure you have **Node.js** installed.
 3. Then type `npm install --save express socket.io`
 4. Finally, type `node server.js`
 
-If you have any problems or would like to know more, please contact us at info@greyhope.uk
+If you have any problems or would like to know more, please contact us at info@greyhope.uk.
