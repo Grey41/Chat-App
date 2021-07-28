@@ -9,4 +9,4 @@ Make sure you have **Node.js** installed.
 1. Download the **Chat App** source code
 2. In your **Command Terminal** type `cd` followed by the path to the folder for one of the pages
 3. Then type `npm install --save express socket.io`
-4. Type `node server.js`
+4. Finally, type `node server.js`
