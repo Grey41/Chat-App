@@ -1,2 +1,2 @@
-# chat-app
-A basic online chat application
+# Chat App
+This is the source code for our online Node.js tutorial.
