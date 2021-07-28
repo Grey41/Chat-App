@@ -10,3 +10,5 @@ Make sure you have **Node.js** installed.
 2. In your **Command Terminal** type `cd` followed by the path to the folder for one of the pages
 3. Then type `npm install --save express socket.io`
 4. Finally, type `node server.js`
+
+If you have any problems or would like to know more, please contact us at info@greyhope.uk
