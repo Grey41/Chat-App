@@ -2,7 +2,6 @@
 
 This is the source code for the online **Node.js** tutorial.
 You can visit it by clicking [here](https://greyhope.uk/chat_1.html).
-
 To run the code for each page, follow the steps below.
 Make sure you have **Node.js** installed.
 
