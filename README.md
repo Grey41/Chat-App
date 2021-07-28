@@ -10,4 +10,3 @@ Make sure you have **Node.js** installed.
 2. In your **Command Terminal** type `cd` followed by the path to the folder for one of the pages
 3. Then type `npm install --save express socket.io`
 4. Type `node server.js`
-5. Finally, in your browser, go to **localhost:5000** and view the result.
