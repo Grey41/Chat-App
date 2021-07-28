@@ -1,2 +1,4 @@
 # Chat App
-This is the source code for our online Node.js tutorial.
+
+This is the source code for the online **Node.js** tutorial.
+You can visit it by clicking here
