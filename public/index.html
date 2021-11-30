@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
     <head>
         <title>Chat App</title>
         <script src = socket.io/socket.io.js></script>
@@ -15,17 +16,18 @@
             }
 
             #main {
-                max-width: 64rem;
+                max-width: 64em;
                 margin: 0 auto;
                 background: #aaa;
-                height: calc(100% - 4.5rem);
+                height: calc(100% - 4.5em);
+                overflow: auto;
             }
 
             #base {
-                max-width: 64rem;
+                max-width: 64em;
                 margin: 0 auto;
                 background: #bbb;
-                height: 4.5rem;
+                height: 4.5em;
             }
 
             #base #form {
@@ -33,25 +35,25 @@
             }
 
             #base #input {
-                border-radius: 0.4rem;
+                border-radius: 0.3em;
                 border: solid #888;
-                font-size: 1rem;
+                font-size: 16px;
                 box-sizing: border-box;
                 width: 100%;
-                padding: 0.5rem;
-                height: 2.5rem;
+                padding: 0.4em;
+                height: 2.5em;
             }
 
             #box {
-                padding: 1rem 1rem 0 1rem;
+                padding: 1em 1em 0 1em;
             }
 
             #box div {
                 background: #eee;
-                padding: 0.5rem;
-                border-radius: 0.4rem;
+                padding: 0.4em;
+                border-radius: 0.3em;
                 overflow: hidden;
-                font-size: 1rem;
+                font-size: 16px;
             }
         </style>
     </head>
@@ -60,16 +62,16 @@
         <div id = main></div>
 
         <div id = base>
-            <form id = form>
-                <input id = input type = text placeholder = "Type Message">
-            </form>
-        </div>
+			<form id = form>
+				<input id = input type = text placeholder = "Type Message">
+			</form>
+		</div>
 
         <script>
             const socket = io()
 
             form.addEventListener("submit", event => {
-                event.preventDefault()
+                event.preventDefault() 
                 socket.emit("message", input.value)
 
                 input.value = ""
@@ -84,7 +86,7 @@
 
                 box.appendChild(div)
                 main.appendChild(box)
-            })
+            }) 
         </script>
     </body>
 </html>

@@ -16,14 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^4.1.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Grey41/chat-app.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Grey41/chat-app/issues"
-  },
-  "homepage": "https://greyhope.uk"
+    "socket.io": "^4.4.0"
+  }
 }
